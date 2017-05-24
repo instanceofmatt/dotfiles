@@ -15,7 +15,8 @@ I use iTerm2 with the following settings:
 Run the below commands to clone the repo and setup the required symlinks.
 ```
 git clone https://github.com/instanceofmatt/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles/bin
-./install
+cd ~/.dotfiles/bin && ./install
 ```
-Make sure that the .vimrc and .zshrc files do not already exist in the home directory as they will not be overridden by the symlink.
+If there is already a .vimrc or .zshrc file, the installer will replace these with a symlink to the .dotfiles repo.
+
+Once finished, don't forget to open ```vi``` and run ```:PlugInstall``` to install the vim plugins.
