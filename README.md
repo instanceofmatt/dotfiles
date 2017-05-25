@@ -1,5 +1,5 @@
 # My Dotfiles
-Inspired by [imjoshholloway](https://github.com/imjoshholloway/dotfiles) and [driesvints](https://github.com/driesvints/dotfiles).
+Inspired by [imjoshholloway/dotfiles](https://github.com/imjoshholloway/dotfiles) and [driesvints/dotfiles](https://github.com/driesvints/dotfiles).
 
 ## Whats included?
 A clean and minimal zsh and vim setup. This repository is designed to be used in conjuction with my [macbook-ansible playbook](https://github.com/instanceofmatt) for quickly getting my preferred development environment up and running. I use iTerm2 with the Dracula colour scheme and Fira Code Retina (15pt) 150% vertical spacing.
