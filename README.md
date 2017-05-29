@@ -14,7 +14,7 @@ I use iTerm2 with the following settings:
 ## Installing
 Run the below commands to clone the repo and setup the required symlinks.
 ```
-git clone https://github.com/instanceofmatt/dotfiles.git ~/.dotfiles
+git clone https://github.com/itsmattburgess/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles/bin && ./install
 ```
 If there is already a .vimrc or .zshrc file, the installer will replace these with a symlink to the .dotfiles repo.
