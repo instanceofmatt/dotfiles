@@ -10,6 +10,7 @@ I use iTerm2 with the following settings:
 - Colour Scheme: [Dracula](https://draculatheme.com/iterm/)
 - Font: Fira Code Retina 15px
 - Vertical Spacing: 150%
+- Load preferences from a custom folder or URL: ```iterm2/com.googlecode.iterm2.plist```
 
 ## Installing
 Run the below commands to clone the repo and setup the required symlinks.
