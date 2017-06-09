@@ -2,7 +2,7 @@
 	name = Matt Burgess
 	email = matt.burgess92@googlemail.com
 [core]
-	excludesfile = /Users/matt.burgess/.gitignore_global
+	excludesfile = /Users/matt/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
