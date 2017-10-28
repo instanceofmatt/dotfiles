@@ -5,6 +5,7 @@ rm ~/.zshrc
 
 # Setup symbolic links to these dotfiles
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+ln -s $HOME/.dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -s $HOME/.dotfiles/zsh/dracula.zsh-theme $HOME/.oh-my-zsh/themes
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
