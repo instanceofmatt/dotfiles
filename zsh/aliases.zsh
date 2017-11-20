@@ -4,7 +4,7 @@ alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 alias nah="git reset --hard"
 alias reload="source $HOME/.zshrc"
 alias aws_whoami="aws sts get-caller-identity"
-alias code="cd ~/Github/"
+alias code="cd ~/Github/itsmattburgess"
 
 function switch_profile() {
     export AWS_PROFILE="${1}"
