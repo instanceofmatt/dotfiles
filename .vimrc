@@ -22,6 +22,9 @@ Plug 'hashivim/vim-vagrant'
 Plug 'pearofducks/ansible-vim'
 Plug 'godlygeek/tabular'
 
+" Utilities
+Plug 'JamshedVesuna/vim-markdown-preview'
+
 call plug#end()
 
 " == General Config ============================================================
@@ -71,3 +74,7 @@ let g:airline_powerline_fonts=1
 
 let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
+
+" == Github Flavoured Markdown =================================================
+let vim_markdown_preview_github=1
+let vim_markdown_preview_browser='Google Chrome'
