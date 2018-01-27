@@ -6,6 +6,7 @@ alias reload="source $HOME/.zshrc"
 alias aws_whoami="aws sts get-caller-identity"
 alias code="cd ~/Github/itsmattburgess"
 alias github="cd ~/Github/"
+alias tmuxcheat="open https://gist.github.com/henrik/1967800"
 
 function switch_profile() {
     export AWS_PROFILE="${1}"
