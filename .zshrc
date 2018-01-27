@@ -17,4 +17,7 @@ plugins=(git)
 # Custom ZSH Config files location
 ZSH_CUSTOM=$DOTFILES/zsh
 
+# Treat failed globs like bash (to allow wildcards when using terraform)
+setopt nonomatch
+
 source $ZSH/oh-my-zsh.sh
