@@ -3,7 +3,7 @@ install:
 
 	[ -f ~/.zshrc ] || ln -s $(PWD)/zshrc ~/.zshrc
 	[ -f ~/.tmux.conf ] || ln -s $(PWD)/tmux.conf ~/.tmux.conf
-	[ -f ~/.oh-my-zsh/themes ] || ln -s $(PWD)/zsh/dracuka.zsh-theme ~/.oh-my-zsh/themes
+	[ -f ~/.oh-my-zsh/themes/dracula.zsh-theme ] || ln -s $(PWD)/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes
 	[ -f ~/.gitconfig ] || ln -s $(PWD)/gitconfig ~/.gitconfig
 	[ -f ~/.gitignore_global ] || ln -s $(PWD)/gitignore_global ~/.gitignore_global
 	[ -f ~/.vimrc ] || ln -s $(PWD)/vimrc ~/.vimrc
