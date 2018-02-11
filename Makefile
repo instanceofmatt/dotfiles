@@ -8,6 +8,7 @@ install:
 	[ -f ~/.gitignore_global ] || ln -s $(PWD)/gitignore_global ~/.gitignore_global
 	[ -f ~/.vimrc ] || ln -s $(PWD)/vimrc ~/.vimrc
 	[ -f ~/.vim ] || ln -s $(PWD)/vim ~/.vim
+	[ -d ~/.oh-my-zsh/custom/plugins ] || ln -s $(PWD)/zsh/plugins ~/.oh-my-zsh/custom/plugins
 
 clean:
 	rm -rf ~/.zshrc
@@ -17,5 +18,6 @@ clean:
 	rm -rf ~/.gitignore_global
 	rm -rf ~/.vimrc
 	rm -rf ~/.vim
+	rm -rf ~/.oh-my-zsh/custom/plugins
 
 .PHONY: links
