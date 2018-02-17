@@ -21,6 +21,7 @@ Plug 'tpope/vim-sleuth'
 Plug 'hashivim/vim-vagrant'
 Plug 'pearofducks/ansible-vim'
 Plug 'godlygeek/tabular'
+Plug 'hashivim/vim-terraform'
 
 " Utilities
 Plug 'JamshedVesuna/vim-markdown-preview'
