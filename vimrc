@@ -24,6 +24,7 @@ Plug 'godlygeek/tabular'
 
 " Utilities
 Plug 'JamshedVesuna/vim-markdown-preview'
+Plug 'rizzatti/dash.vim'
 
 call plug#end()
 
@@ -36,7 +37,7 @@ hi LineNr ctermfg=lightgrey             "Darker line numbers
 set history=1000                        "Store lots of :cmdline history
 set showcmd                             "Show incomplete cmds down the bottom
 set gcr=a:blinkon0                      "Disable cursor blink
-set visualbell                          "No sounds
+set vb t_vb=                            "No sounds
 set autoread                            "Reload files changed outside vim
 set wildmenu                            "Visual autocomplete for command menu
 set showmatch                           "Highlight matching [{()}]
@@ -56,9 +57,9 @@ colorscheme Tomorrow-Night-Eighties
 set autoindent
 set smartindent
 set smarttab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 set expandtab
 
 " == Vim Airline ===============================================================
