@@ -36,6 +36,7 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "fullscreen/tap/aws-rotate-key"
 brew "docker"
+brew "go"
 
 cask "caskroom/fonts/font-source-code-pro"
 cask "caskroom/fonts/font-fira-code"

@@ -14,6 +14,7 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/nerdtree'
+Plug 'fatih/vim-go'
 
 " Syntax and autcompletions
 Plug 'scrooloose/syntastic'
