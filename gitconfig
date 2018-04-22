@@ -1,6 +1,6 @@
 [user]
 	name = Matt Burgess
-	email = matt.burgess92@googlemail.com
+	email = matt.burgess@idgateway.co.uk
 
 [core]
 	excludesfile = /Users/matt/.gitignore_global
@@ -11,9 +11,9 @@
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 
 [mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 
