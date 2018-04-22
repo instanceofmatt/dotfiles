@@ -7,7 +7,9 @@ install:
 	[ -f ~/.gitconfig ] || ln -s $(PWD)/gitconfig ~/.gitconfig
 	[ -f ~/.gitignore_global ] || ln -s $(PWD)/gitignore_global ~/.gitignore_global
 	[ -f ~/.vimrc ] || ln -s $(PWD)/vimrc ~/.vimrc
-	[ -f ~/.vim ] || ln -s $(PWD)/vim ~/.vim
+	[ -d ~/.vim ] || ln -s $(PWD)/vim ~/.vim
+	[ -d ~/.dotfiles ] || ln -s $(PWD) ~/.dotfiles
+	[ -d ~/.atom ] || ln -s $(PWD)/atom ~/.atom
 	[ -d ~/.oh-my-zsh/custom/plugins ] || ln -s $(PWD)/zsh/plugins ~/.oh-my-zsh/custom/plugins
 
 clean:
@@ -19,5 +21,6 @@ clean:
 	rm -rf ~/.vimrc
 	rm -rf ~/.vim
 	rm -rf ~/.oh-my-zsh/custom/plugins
+	rm -rf ~/.atom
 
 .PHONY: links

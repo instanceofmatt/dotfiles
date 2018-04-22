@@ -1,0 +1,48 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "bb55032e-e46e-44e2-a1fa-de8aae6a5052"
+  "atom-clock":
+    dateFormat: "DD/MM/YYYY, H:mm"
+    showClockIcon: true
+    showTooltip: true
+  "atom-ide-ui":
+    use: {}
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".terraform"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+    titleBar: "custom-inset"
+  editor:
+    fontSize: 15
+    lineHeight: 1.8
+  "exception-reporting":
+    userId: "d66b145a-2b33-41ec-ae77-b28860852674"
+  filesize: {}
+  "indentation-indicator":
+    indicatorPosition: "right"
+  "markdown-preview":
+    breakOnSingleNewline: true
+    useGitHubStyle: true
+  "spell-check":
+    addKnownWords: true
+    knownWords: [
+      "ansible"
+    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
