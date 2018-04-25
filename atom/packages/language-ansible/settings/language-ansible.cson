@@ -1,6 +1,0 @@
-".source.ansible":
-  editor:
-    commentStart: "# "
-".source.ansible-advanced":
-  editor:
-    commentStart: "# "
