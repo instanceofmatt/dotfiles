@@ -14,3 +14,13 @@ make install
 ```
 
 Once finished, don't forget to open ```vim``` and run ```:PlugInstall``` to install the vim plugins.
+
+## Atom Packages
+Once packages have been updated in atom, use apm to keep the packages list up to date, rather than commiting all package files into git.
+```
+apm list --installed --bare > packages.txt
+```
+If installing on a new machine, install all the packages listed in ```packages.txt```
+```
+apm install --packages-file packages.txt
+```
