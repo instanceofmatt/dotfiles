@@ -653,6 +653,8 @@
 	<string>80599435-E14E-4354-9F9A-35F198EA572A</string>
 	<key>DimBackgroundWindows</key>
 	<false/>
+	<key>DisableMetalWhenUnplugged</key>
+	<false/>
 	<key>HideScrollbar</key>
 	<true/>
 	<key>HideTab</key>
@@ -706,16 +708,53 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSTouchBarConfig: full screen</key>
+	<dict>
+		<key>CurrentItems</key>
+		<array>
+			<string>iTermTouchBarFunctionKeysScrollView</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+		</array>
+		<key>DefaultItems</key>
+		<array>
+			<string>iTermTouchBarIdentifierManPage</string>
+			<string>iTermTouchBarIdentifierColorPreset</string>
+			<string>iTermTouchBarIdentifierFunctionKeys</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>tab bar</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+			<string>iTermTouchBarIdentifierAddMark</string>
+			<string>iTermTouchBarIdentifierPreviousMark</string>
+			<string>iTermTouchBarIdentifierNextMark</string>
+		</array>
+	</dict>
+	<key>NSTouchBarConfig: regular</key>
+	<dict>
+		<key>CurrentItems</key>
+		<array>
+			<string>iTermTouchBarFunctionKeysScrollView</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+		</array>
+		<key>DefaultItems</key>
+		<array>
+			<string>iTermTouchBarIdentifierManPage</string>
+			<string>iTermTouchBarIdentifierColorPreset</string>
+			<string>iTermTouchBarIdentifierFunctionKeys</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
+			<string>iTermTouchBarIdentifierAddMark</string>
+			<string>iTermTouchBarIdentifierPreviousMark</string>
+			<string>iTermTouchBarIdentifierNextMark</string>
+		</array>
+	</dict>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>650 510 620 392 0 0 1920 1058 </string>
-	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 126 606 469 0 0 1920 1080 </string>
+	<string>530 489 620 392 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>233 384 918 401 0 0 1920 1058 </string>
+	<string>432 566 1018 447 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1738 463 1510 920 0 0 3440 1418 </string>
+	<string>66 59 1510 897 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>710 316 1210 807 0 0 3440 1418 </string>
+	<string>212 111 1210 807 0 0 1680 1028 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1364,7 +1403,7 @@
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>3595D6B6-9352-4475-96C3-C706641E2327</string>
+	<string>A654803C-7D70-4AD8-BAE5-FF48046354BC</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1372,7 +1411,7 @@
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>517757303.15337998</real>
+	<real>530734975.38652903</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
@@ -1421,11 +1460,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=69</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=32</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-04-13T19:24:51Z</date>
+	<date>2018-04-28T20:08:17Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -1438,10 +1477,12 @@
 	<array>
 		<string>Profiles</string>
 	</array>
+	<key>UseMetal</key>
+	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.1.6</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
