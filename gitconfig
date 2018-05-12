@@ -1,7 +1,3 @@
-[user]
-	name = Matt Burgess
-	email = matt.burgess@idgateway.co.uk
-
 [core]
 	excludesfile = /Users/matt/.gitignore_global
     editor = vim
