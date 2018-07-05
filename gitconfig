@@ -6,7 +6,7 @@
 [user]
 	name = Matt Burgess
 	email = matt.burgess92@googlemail.com
-  signingKey = F1D9E376D969D664CCD4FA813DCB04B46380864C
+  signingKey = 54CF8A4C
 [gpg]
   program = gpg
 [commit]
