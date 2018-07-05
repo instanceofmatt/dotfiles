@@ -5,4 +5,16 @@
   insteadOf = https://github.com/
 [user]
 	name = Matt Burgess
-  email = matt.burgess92@googlemail.com
+	email = matt.burgess92@googlemail.com
+  signingKey = F1D9E376D969D664CCD4FA813DCB04B46380864C
+[gpg]
+  program = gpg
+[commit]
+  gpgsign = true
+	template = /Users/matt/.stCommitMsg
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
