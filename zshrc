@@ -15,7 +15,18 @@ SPACESHIP_PROMPT_SEPARATE_LINE=false
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-iterm-touchbar)
+plugins=(
+  git
+  zsh-iterm-touchbar
+)
+
+local plugins_dir="/usr/local/share"
+fpath=($plugins_dir/zsh-completions/src $fpath)
+
+source $plugins_dir/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $plugins_dir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $plugins_dir/zsh-history-substring-search/zsh-history-substring-search.zsh
+
 
 # Custom ZSH Config files location
 ZSH_CUSTOM=$DOTFILES/zsh
