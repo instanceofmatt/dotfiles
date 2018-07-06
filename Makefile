@@ -1,5 +1,6 @@
 install:
 	mkdir -p ~/.oh-my-zsh/themes
+	mkdir -p ~/.config/alacritty
 
 	[ -f ~/.zshrc ] || ln -s $(PWD)/zshrc ~/.zshrc
 	[ -f ~/.tmux.conf ] || ln -s $(PWD)/tmux.conf ~/.tmux.conf
@@ -7,6 +8,7 @@ install:
 	[ -f ~/.gitconfig ] || ln -s $(PWD)/gitconfig ~/.gitconfig
 	[ -f ~/.gitignore_global ] || ln -s $(PWD)/gitignore_global ~/.gitignore_global
 	[ -f ~/.vimrc ] || ln -s $(PWD)/vimrc ~/.vimrc
+	[ -f ~/.config/alacritty/alacritty.yml ] || ln -s $(PWD)/alacritty.yml ~/.config/alacritty/alacritty.yml
 	[ -d ~/.vim ] || ln -s $(PWD)/vim ~/.vim
 	[ -d ~/.dotfiles ] || ln -s $(PWD) ~/.dotfiles
 	[ -d ~/.atom ] || ln -s $(PWD)/atom ~/.atom
@@ -22,5 +24,6 @@ clean:
 	rm -rf ~/.vim
 	rm -rf ~/.oh-my-zsh/custom/plugins
 	rm -rf ~/.atom
+	rm -rf ~/.config/alacritty
 
-.PHONY: links
+.PHONY: install
