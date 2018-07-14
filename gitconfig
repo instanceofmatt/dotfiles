@@ -1,19 +1,18 @@
-[user]
-	name = Matt Burgess
-	email = matt.burgess@idgateway.co.uk
-
 [core]
-	excludesfile = /Users/matt/.gitignore_global
-    editor = vim
-
-[url "git@github.com:"]
-    insteadOf = https://github.com/
-
+  excludesfile = /Users/matt/.gitignore_global
+  editor = vim
+[user]
+  name = Matt Burgess
+  email = matt.burgess92@googlemail.com
+  signingKey = 54CF8A4C
+[gpg]
+  program = gpg
+[commit]
+  gpgsign = true
+  template = /Users/matt/.stCommitMsg
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
 [mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-
+  cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true

@@ -44,6 +44,7 @@
   editor:
     fontSize: 17
     lineHeight: 1.8
+    showIndentGuide: true
   "exception-reporting":
     userId: "d66b145a-2b33-41ec-ae77-b28860852674"
   filesize: {}
