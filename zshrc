@@ -25,7 +25,6 @@ fpath=($plugins_dir/zsh-completions/src $fpath)
 
 source $plugins_dir/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $plugins_dir/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $plugins_dir/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # Custom ZSH Config files location
 ZSH_CUSTOM=$DOTFILES
