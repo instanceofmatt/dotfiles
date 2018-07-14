@@ -6,3 +6,9 @@
 	path = alacritty
 	url = git@github.com:jwilm/alacritty.git
 	branch = master
+[submodule "tmux/plugins/tmux-battery"]
+	path = tmux/plugins/tmux-battery
+	url = https://github.com/tmux-plugins/tmux-battery
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
