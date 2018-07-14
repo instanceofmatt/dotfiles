@@ -52,6 +52,9 @@ alias listening="sudo lsof -iTCP -sTCP:LISTEN -n -P"
 # Treat failed globs like bash (to allow wildcards when using terraform)
 setopt nonomatch
 
+# Autosuggest
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=245'
+
 # Machine specific config
 [[ -a $HOME/.localrc ]] && source $HOME/.localrc
 
