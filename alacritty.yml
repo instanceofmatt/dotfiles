@@ -161,6 +161,7 @@ background_opacity: 1.0
 # - Copy (TODO)
 mouse_bindings:
   - { mouse: Middle, action: PasteSelection }
+  - { mouse: Left, action: Copy }
 
 mouse:
   # Click settings
