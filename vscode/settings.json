@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code (Retina), Menlo, Monaco, 'Courier New', monospace",
+    "workbench.colorTheme": "Egoist One",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.lineHeight": 1.3
+}

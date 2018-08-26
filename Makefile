@@ -12,6 +12,7 @@ install:
 	ln -s $(PWD)/vim ~/.vim
 	ln -s $(PWD)/atom ~/.atom
 	ln -s $(PWD)/tmux ~/.tmux
+	ln -s $(PWD)/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 	ln -s $(PWD) ~/.dotfiles
 
 clean:
@@ -25,5 +26,6 @@ clean:
 	rm -rf ~/.vim
 	rm -rf ~/.atom
 	rm -rf ~/.config/alacritty
+	rm ~/Library/Application\ Support/Code/User/settings.json
 
 .PHONY: install
