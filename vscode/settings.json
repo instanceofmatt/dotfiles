@@ -1,0 +1,45 @@
+{
+    "window.newWindowDimensions": "fullscreen",
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeightBold": "500",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 36,
+    "workbench.iconTheme": "city-lights-icons-vsc",
+    "workbench.colorTheme": "Peacocks In Space (rainglow)",
+    "workbench.tree.indent": 20,
+    "window.zoomLevel": 0.5,
+    "files.exclude": {
+        ".vscode": true,
+        "**/node_modules": true,
+        "**/vendor": true
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#363C4A",
+        "list.activeSelectionBackground": "#272B35",
+        "list.activeSelectionForeground": "#fff",
+        "focusBorder": "#ffffff00",
+        "button.background": "#414858"
+    },
+    "json.schemas": [
+    
+    ],
+    "editor.fontLigatures": true,
+    "launch": {
+
+    
+    },
+    "terminal.external.osxExec": "iTerm2.app",
+    "terminal.integrated.lineHeight": 1.25,
+    "window.restoreFullscreen": true,
+    "window.titleBarStyle": "native",
+    "explorer.confirmDelete": false,
+    "php.suggest.basic": false,
+    "editor.snippetSuggestions": "bottom",
+    "workbench.startupEditor": "newUntitledFile",
+    "openapi.securityAuditToken": "CiCvFgoZ1jmKSR1lPpE1Vpr7GlOd+rYUGIZayI+elokzmhIYu62MbiG7EfosDF4cbcM/Qih9qT7Qng/gGnwuO9n1Ds8a4gMrGPBhTMvMH+oJJlp1UTGoRVgkHiwRad5ImspAgFW6u2BtPUGYzm3XDjjZL+0eksydQF4SKkj0hoZb+ppe0BliVAkMFTlKorfA2sm5GbhLaAdKmiSl5YfhbRzjfUfwL1+4EddfSi2iFVbL5yeLBwXoGQ7S",
+    "editor.renameOnType": true
+}
