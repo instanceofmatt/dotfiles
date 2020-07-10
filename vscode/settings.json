@@ -8,21 +8,18 @@
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
     "editor.lineHeight": 36,
-    "workbench.iconTheme": "city-lights-icons-vsc",
-    "workbench.colorTheme": "Peacocks In Space (rainglow)",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "workbench.tree.indent": 20,
     "window.zoomLevel": 0.5,
+    "clock.dateFormat": "ddd d mmm, HH:MM",
     "files.exclude": {
         ".vscode": true,
         "**/node_modules": true,
         "**/vendor": true
     },
     "workbench.colorCustomizations": {
-        "statusBar.background": "#363C4A",
-        "list.activeSelectionBackground": "#272B35",
-        "list.activeSelectionForeground": "#fff",
-        "focusBorder": "#ffffff00",
-        "button.background": "#414858"
+        "focusBorder": "#ffffff00"
     },
     "json.schemas": [
     
@@ -41,5 +38,27 @@
     "editor.snippetSuggestions": "bottom",
     "workbench.startupEditor": "newUntitledFile",
     "openapi.securityAuditToken": "CiCvFgoZ1jmKSR1lPpE1Vpr7GlOd+rYUGIZayI+elokzmhIYu62MbiG7EfosDF4cbcM/Qih9qT7Qng/gGnwuO9n1Ds8a4gMrGPBhTMvMH+oJJlp1UTGoRVgkHiwRad5ImspAgFW6u2BtPUGYzm3XDjjZL+0eksydQF4SKkj0hoZb+ppe0BliVAkMFTlKorfA2sm5GbhLaAdKmiSl5YfhbRzjfUfwL1+4EddfSi2iFVbL5yeLBwXoGQ7S",
-    "editor.renameOnType": true
+    "editor.renameOnType": true,
+    "explorer.confirmDragAndDrop": false,
+    "go.formatTool": "goimports",
+    "yaml.customTags": [
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals",
+        "!Or",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Join sequence"
+    ],
+    "yaml.format.enable": true,
 }
