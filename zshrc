@@ -20,7 +20,7 @@ plugins=(
   git
 )
 
-local plugins_dir="/usr/local/share"
+local plugins_dir="/opt/homebrew/share"
 fpath=($plugins_dir/zsh-completions/src $fpath)
 
 source $plugins_dir/zsh-autosuggestions/zsh-autosuggestions.zsh
