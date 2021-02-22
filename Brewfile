@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+tap "aws/tap"
 
 brew "git"
 brew "tmux"
@@ -23,6 +24,7 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "httpie"
 brew "wrk"
+brew "aws-sam-cli"
 
 cask "spotify"
 cask "iterm2"
